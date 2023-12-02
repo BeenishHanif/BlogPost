@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+
   font-family: "Poppins", sans-serif;
 }
 
@@ -25,11 +25,9 @@
   color: #fff;
 }
 
-
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #fff;
-
 }
 .header-ul {
   display: flex;
@@ -92,7 +90,7 @@ body {
   font-size: 1.2rem;
   color: #fff;
 }
-.text p:nth-child(3){
+.text p:nth-child(3) {
   margin-top: -30px;
 }
 
@@ -112,13 +110,13 @@ body {
 .fabars {
   color: #fff;
   display: none;
-} 
+}
 .feed {
-  height:auto;
+  height: auto;
   width: 800px;
   position: relative;
   bottom: 0;
- left: 50%;
+  left: 50%;
   transform: translateX(-50%);
   display: flex;
   flex-direction: column;
@@ -168,7 +166,7 @@ p {
   height: 400px;
   overflow: hidden;
 }
-.img-blog:hover img{
+.img-blog:hover img {
   transform: scale(1.5);
   transition: all 0.5s ease-in-out;
 }
@@ -214,7 +212,7 @@ p {
   width: 200px;
 }
 
-.filters select{
+.filters select {
   height: 60px;
 }
 .filters select:hover,
@@ -282,7 +280,7 @@ p {
   width: 200px;
   height: 200px;
   border-radius: 50em;
- 
+
   background: linear-gradient(
     90deg,
     rgb(204, 81, 173) 16%,
@@ -293,7 +291,7 @@ p {
   justify-content: center;
 }
 .circle h1 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 3rem;
   color: #fff;
 }
@@ -309,7 +307,7 @@ p {
   margin-top: 20px;
 }
 .success-box {
-  background:linear-gradient(
+  background: linear-gradient(
     90deg,
     rgb(204, 81, 173) 16%,
     rgb(207, 157, 124) 64%
@@ -334,10 +332,10 @@ p {
 
 .person-txt h2 {
   padding: 1rem 0.5rem 0 1rem;
-  color:#d87093;
+  color: #d87093;
 }
 
-.person-txt p{
+.person-txt p {
   transform: translateY(-8px);
   color: #000;
 }
@@ -382,9 +380,8 @@ p {
   flex-direction: column;
   margin-left: 5px;
   transform: translate(10px, -15px);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
-
 
 .container-person {
   width: 800px;
@@ -408,7 +405,7 @@ p {
   background-color: #fff;
   width: 100%;
   left: 0;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   padding: 20px;
 }
@@ -424,8 +421,8 @@ p {
   padding: 20px;
 }
 
-header ul li:nth-child(4):hover .dropdown-content{
-display: flex;
+header ul li:nth-child(4):hover .dropdown-content {
+  display: flex;
 }
 
 .dropdown-row {
@@ -434,17 +431,14 @@ display: flex;
   flex-direction: row;
 }
 
-
 .dropdown-column a {
-  padding: 5px 5px; 
+  padding: 5px 5px;
   display: block;
 }
-
 
 .dropdown-column a:hover {
   background-color: rgb(227, 219, 219);
 }
-
 
 .dropdown-column a:hover::after {
   content: "";
@@ -454,7 +448,7 @@ display: flex;
   display: block;
 }
 
-.post-blog{
+.post-blog {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -463,30 +457,31 @@ display: flex;
   margin: 70px 0;
 }
 
-.post-blog label{
+.post-blog label {
   display: block;
 }
-.post-blog button{
+.post-blog button {
   display: block;
 }
 
-.post-blog input,.post-blog textarea{
+.post-blog input,
+.post-blog textarea {
   width: 700px;
   padding: 5px;
 }
-.post-blog textarea{
+.post-blog textarea {
   height: 500px;
   overflow-y: scroll;
 }
 
-.post-blog label{
+.post-blog label {
   font-size: 1rem;
   font-weight: 500;
   color: #370b1a;
   text-transform: capitalize;
 }
 
-.post-blog button{
+.post-blog button {
   padding: 10px 30px;
   border-radius: 12px;
   background: linear-gradient(
@@ -502,43 +497,36 @@ display: flex;
   transform: translateX(-50%);
 }
 
-.postpage{
+.postpage {
   padding: 50px;
   padding-bottom: 100px;
   min-height: 600px;
 }
-.postpage h2{
+.postpage h2 {
   margin-bottom: 30px;
 }
 
 .postpage img {
-  float: right; 
+  float: right;
   height: 400px;
-  width:700px;
-  margin:0 0 20px 20px;
+  width: 700px;
+  margin: 0 0 20px 20px;
 }
-.postpage-button{
-  text-align: center;
+.postpage-button {
+  transform: translateY(-50px);
+  text-align: end;
 }
-.postpage-button button{
-  width: 150px;
-  padding: 10px 30px;
+.postpage-button button {
+  font-size: 1.3rem;
+  padding: 5px 10px;
+  color: #555353;
   border-radius: 12px;
-  background: linear-gradient(
-    90deg,
-    rgb(204, 81, 173) 16%,
-    rgb(207, 157, 124) 64%
-  );
+  background: #fff;
+  font-family: "Times New Roman", Times, serif;
   border: none;
-  color: #fff;
-  font-size: 1.2rem;
-  margin-top: 20px;
- margin-right: 20px;
- font-family: 'Times New Roman', Times, serif;
-
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .text p:nth-child(3) {
     max-width: 400px;
     font-size: 1rem;
@@ -551,11 +539,11 @@ display: flex;
     grid-template-columns: repeat(1, 400px);
     grid-template-rows: repeat(4, 200px);
   }
- 
-  .post-blog input,.post-blog textarea{
+
+  .post-blog input,
+  .post-blog textarea {
     width: 500px;
   }
-
 }
 
 @media screen and (max-width: 850px) and (min-width: 328px) {
@@ -577,21 +565,18 @@ display: flex;
     background-color: #fff;
   }
 
-  .header h1{
+  .header h1 {
     margin-top: 20px;
   }
   .fabars {
     transform: translateY(-10px);
     display: block;
-   
   }
   .header ul {
     flex-direction: column;
     margin-top: -55px;
   }
 
-
-  
   .header a:hover:after {
     width: 0;
   }
@@ -625,7 +610,7 @@ display: flex;
     padding: 20px 0;
   }
 
-  .img-blog{
+  .img-blog {
     height: 300px;
     flex: 1 2 400px;
   }
@@ -634,10 +619,9 @@ display: flex;
     flex: 1 2 400px;
   }
 
-
   .feed {
     width: 400px;
-    margin:10px 0 50px 0;
+    margin: 10px 0 50px 0;
   }
 
   .journey-about {
@@ -674,9 +658,9 @@ display: flex;
     font-size: 2.5rem;
   }
 
-  header ul li:nth-child(4):hover .dropdown-content{
+  header ul li:nth-child(4):hover .dropdown-content {
     display: none;
-    }
+  }
   .success-container {
     grid-template-columns: repeat(1, 400px);
     grid-template-rows: repeat(4, 200px);
@@ -697,34 +681,41 @@ display: flex;
     margin: 80px 0;
   }
 
-  .post-blog input,.post-blog textarea{
+  .post-blog input,
+  .post-blog textarea {
     width: 400px;
   }
- 
-  .success-txtbox{
+
+  .success-txtbox {
     padding: 0px 0 5px 0px;
   }
 
-  .postpage img{
-   width: 400px;
-   height: 300px;
+  .postpage img {
+    width: 400px;
+    height: 300px;
   }
 
   .filters select,
-.filters option,
-.filters input[type="search"] {
-  padding: 8px;
-  font-size: 0.9em;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  outline: none;
-  width: 150px;
-height: 40px;
-}
+  .filters option,
+  .filters input[type="search"] {
+    padding: 8px;
+    font-size: 0.9em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 150px;
+    height: 40px;
+  }
 
-.filters {
-  flex-direction: column-reverse;
-  gap: 0.5em;
-  
+  .filters {
+    flex-direction: column-reverse;
+    gap: 0.5em;
+    
+  }
 }
+@media screen and (max-width: 480px) {
+  .postpage img {
+    width: 25 0px;
+    height: 300px;
+  }
 }

@@ -73,7 +73,8 @@ function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const id = posts.length ? posts[posts.length - 1].id + 1 : 1;
+    const idpost = posts.length ? posts[posts.length - 1].id + 1 : 1;
+    const id = idpost.toString();
     const datetime = format(new Date(), "MMM dd,yyy pp");
     const newPost = {
       id,
